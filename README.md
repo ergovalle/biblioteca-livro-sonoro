@@ -1,46 +1,19 @@
-# Livro Sonoro — Biblioteca Virtual 1.3
+# Livro Sonoro — Biblioteca Virtual 1.5
 
-Versão refinada no formato One Page.
+Versão com formato de plataforma/biblioteca por prateleiras, inspirada em catálogos de audiobook/eBook.
 
-## O que mudou na v1.3
+## Mudanças principais
 
-- Estrutura vertical mais clara, seguindo lógica de site One Page.
-- Menu fixo com navegação por blocos.
-- Bloco de abertura/hero.
-- Mapa rápido da página.
-- Portais principais: Audiobooks, eBooks/PDFs, Loja e Colecionáveis.
-- Catálogo de audiobooks.
-- Área para eBooks gratuitos e PDFs.
-- Área de pesquisa/textos acadêmicos.
-- Loja literária para eBooks, livros físicos e afiliados.
-- Colecionáveis e miniaturas.
-- Bloco de monetização: apoio direto, assinatura, parceiros e anúncios controlados.
-- Quem somos e contato.
-- CTA final com e-mail, Pix e YouTube.
-- Código completo em `CODIGO_COMPLETO.md`.
+- Header no estilo plataforma.
+- Hero mais cinematográfico.
+- Categorias em botões horizontais.
+- Prateleiras horizontais de audiolivros.
+- Loja com cards de venda.
+- eBooks/PDFs em carrossel.
+- Coleções editoriais.
+- Footer institucional.
+- Mantém Biblioteca Virtual 1.0 como versão pública.
 
-## Objetivo da página
+## Próximo passo
 
-Ser uma vitrine organizada e bonita para:
-1. mostrar os audiobooks do Livro Sonoro;
-2. oferecer eBooks/PDFs e materiais de estudo;
-3. vender livros próprios e eBooks;
-4. criar espaço para afiliados e parceiros;
-5. exibir colecionáveis e miniaturas;
-6. preparar o caminho para uma futura plataforma/app.
-
-## Hospedagem recomendada
-
-Para agora:
-- GitHub Pages ou Netlify.
-
-Para uma próxima fase:
-- Cloudflare Pages, Vercel ou hospedagem própria com domínio.
-
-## Próximos ajustes
-
-- Inserir links reais de YouTube e Spotify no `script.js`.
-- Inserir links de PDFs e eBooks.
-- Criar página exclusiva de O Diabo Justo.
-- Adicionar newsletter.
-- Transformar em PWA/app instalável.
+Subir no GitHub e deixar o Netlify republicar.
