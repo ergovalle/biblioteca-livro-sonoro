@@ -1,235 +1,242 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Livro Sonoro — Biblioteca Virtual 1.0</title>
-  <meta name="description" content="Biblioteca Virtual Livro Sonoro: audiolivros, eBooks, PDFs, clássicos em português, literatura brasileira, russa, contos, poesia, filosofia e obras autorais.">
-  <meta property="og:title" content="Livro Sonoro — Biblioteca Virtual 1.0">
-  <meta property="og:description" content="Audiolivros, eBooks e clássicos em português. Da palavra escrita à palavra falada.">
-  <meta property="og:type" content="website">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Livro Sonoro — Biblioteca Virtual 1.0. Audiobooks, e-books e podcasts literários em uma biblioteca escura, elegante e sonora." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="app-header">
-    <a class="logo" href="#inicio" aria-label="Livro Sonoro">
-      <span class="logo-mark">☊</span>
-      <span>
-        <strong>Livro Sonoro</strong>
-        <small>Biblioteca Virtual 1.0</small>
-      </span>
-    </a>
+  <div class="page-shell">
+    <header class="topbar">
+      <a href="#" class="brand" aria-label="Livro Sonoro — Biblioteca Virtual">
+        <div class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <path d="M10 15c9-4 16-2 22 4v35c-6-6-13-8-22-4V15Z"></path>
+            <path d="M54 15c-9-4-16-2-22 4v35c6-6 13-8 22-4V15Z"></path>
+            <path d="M6 20c-2 5-2 15 0 20"></path>
+            <path d="M58 20c2 5 2 15 0 20"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <strong>Livro Sonoro</strong>
+          <span>Biblioteca Virtual 1.0</span>
+        </div>
+      </a>
 
-    <nav class="main-nav" aria-label="Navegação principal">
-      <a href="#biblioteca">Biblioteca</a>
-      <a href="#audiolivros">Audiolivros</a>
-      <a href="#ebooks">eBooks</a>
-      <a href="#loja">Loja</a>
-      <a href="#apoie">Apoie</a>
+      <div class="top-actions">
+        <button class="icon-button" type="button" aria-label="Buscar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"></path></svg>
+        </button>
+        <button class="icon-button notification" type="button" aria-label="Notificações">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9Z"></path><path d="M10 21h4"></path></svg>
+        </button>
+        <div class="avatar" aria-label="Perfil">LS</div>
+      </div>
+    </header>
+
+    <section class="intro">
+      <p>Da palavra escrita à palavra falada: clássicos, poemas e textos antigos para atravessar o tempo.</p>
+    </section>
+
+    <nav class="filters" aria-label="Filtros de conteúdo">
+      <button class="filter-btn active" type="button" data-filter="Tudo">Tudo</button>
+      <button class="filter-btn" type="button" data-filter="Audiobook">Audiobooks</button>
+      <button class="filter-btn" type="button" data-filter="E-book">E-books</button>
+      <button class="filter-btn" type="button" data-filter="Podcast">Podcasts</button>
     </nav>
 
-    <div class="header-actions">
-      <button class="icon-btn" aria-label="Buscar">⌕</button>
-      <a class="listen-btn" href="#audiolivros">🎧 Ouça agora</a>
-    </div>
-  </header>
-
-  <main id="inicio">
-    <section class="hero-platform">
-      <div class="hero-overlay">
-        <p class="eyebrow">Biblioteca brasileira independente</p>
-        <h1>Biblioteca Virtual 1.0</h1>
-        <p>Audiolivros, eBooks, PDFs e clássicos em português.</p>
-        <div class="hero-buttons">
-          <a class="primary-btn" href="#biblioteca">Explorar catálogo →</a>
-          <a class="ghost-btn" href="#ebooks">Ver eBooks/PDFs</a>
+    <main>
+      <section class="content-section" data-section="Audiobook">
+        <div class="section-heading">
+          <h2>Audiobooks</h2>
+          <button type="button" class="see-all" data-show="Audiobook">Ver tudo <span>›</span></button>
         </div>
-      </div>
-    </section>
+        <div class="cards-grid">
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-anna">
+              <span class="cover-badge">🎧</span>
+              <strong>Anna<br>Karenina</strong>
+            </div>
+            <p class="genre">Romance</p>
+            <h3>Anna Karenina</h3>
+            <p class="creator">Liev Tolstói</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+          </article>
 
-    <section id="biblioteca" class="category-strip" aria-label="Categorias principais">
-      <a href="#literatura">📖 Literatura</a>
-      <a href="#contos">🪶 Contos</a>
-      <a href="#poesia">✒️ Poesia</a>
-      <a href="#brasileira">🇧🇷 Literatura Brasileira</a>
-      <a href="#russa">🏛️ Literatura Russa</a>
-      <a href="#infantil">🧒 Infantil e Juvenil</a>
-      <a href="#ficcao">🚀 Ficção Científica</a>
-      <a href="#autoajuda">📈 Autoajuda</a>
-      <a href="#humanidades">🏺 Humanidades</a>
-      <a href="#academicos">🎓 Acadêmicos</a>
-    </section>
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-crime">
+              <span class="cover-badge">🎧</span>
+              <strong>Crime<br>e Castigo</strong>
+            </div>
+            <p class="genre">Romance</p>
+            <h3>Crime e Castigo</h3>
+            <p class="creator">Fiódor Dostoiévski</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+          </article>
 
-    <section id="audiolivros" class="library-section">
-      <div class="section-title-row">
-        <h2>🎧 Clássicos da Literatura Russa</h2>
-        <a href="#catalogo-completo">Ver tudo →</a>
-      </div>
-      <div class="shelf-row" id="shelf-russa"></div>
-    </section>
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-profeta">
+              <span class="cover-badge">🎧</span>
+              <strong>O<br>Profeta</strong>
+            </div>
+            <p class="genre">Ficção Filosófica</p>
+            <h3>O Profeta</h3>
+            <p class="creator">Khalil Gibran</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+          </article>
 
-    <section class="library-section">
-      <div class="section-title-row">
-        <h2>📚 Clássicos e Obras Essenciais</h2>
-        <a href="#catalogo-completo">Ver tudo →</a>
-      </div>
-      <div class="shelf-row" id="shelf-essenciais"></div>
-    </section>
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-ivan">
+              <span class="cover-badge">🎧</span>
+              <strong>A Morte de<br>Ivan Ilitch</strong>
+            </div>
+            <p class="genre">Romance</p>
+            <h3>A Morte de Ivan Ilitch</h3>
+            <p class="creator">Liev Tolstói</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+          </article>
+        </div>
+      </section>
 
-    <section id="brasileira" class="library-section">
-      <div class="section-title-row">
-        <h2>🇧🇷 Literatura Brasileira</h2>
-        <a href="#catalogo-completo">Ver tudo →</a>
-      </div>
-      <div class="shelf-row" id="shelf-brasileira"></div>
-    </section>
+      <section class="content-section" data-section="E-book">
+        <div class="section-heading">
+          <h2>E-books</h2>
+          <button type="button" class="see-all" data-show="E-book">Ver tudo <span>›</span></button>
+        </div>
+        <div class="cards-grid">
+          <article class="media-card" data-type="E-book">
+            <div class="cover cover-diabo">
+              <span class="cover-badge">📖</span>
+              <strong>O Diabo<br>Justo</strong>
+            </div>
+            <p class="genre">Ficção</p>
+            <h3>O Diabo Justo</h3>
+            <p class="creator">E. S. Almeida</p>
+            <p class="type"><span>📖</span> E-book</p>
+          </article>
 
-    <section id="ebooks" class="library-section light-band">
-      <div class="section-title-row">
-        <h2>📄 eBooks, PDFs e leitura livre</h2>
-        <a href="#ebooks-grid">Ver tudo →</a>
-      </div>
-      <p class="section-subtitle">Espaço para domínio público, materiais de estudo, PDFs, textos acadêmicos e leitura complementar.</p>
-      <div class="resource-carousel" id="ebooks-grid"></div>
-    </section>
+          <article class="media-card" data-type="E-book">
+            <div class="cover cover-dragoes">
+              <span class="cover-badge">📖</span>
+              <strong>Evangelho dos<br>Dragões Caídos</strong>
+            </div>
+            <p class="genre">Fantasia</p>
+            <h3>Evangelho dos Dragões Caídos</h3>
+            <p class="creator">E. S. Almeida</p>
+            <p class="type"><span>📖</span> E-book</p>
+          </article>
 
-    <section id="loja" class="library-section store-band">
-      <div class="section-title-row">
-        <h2>🛒 Loja literária</h2>
-        <a href="#apoie">Apoie o projeto →</a>
-      </div>
-      <p class="section-subtitle">Vitrine para eBooks próprios, livros físicos, links de afiliado, obras autorais e futuras parcerias.</p>
-      <div class="store-row" id="store-row"></div>
-    </section>
+          <article class="media-card" data-type="E-book">
+            <div class="cover cover-noites">
+              <span class="cover-badge">📖</span>
+              <strong>Noites<br>Brancas</strong>
+            </div>
+            <p class="genre">Romance</p>
+            <h3>Noites Brancas</h3>
+            <p class="creator">Fiódor Dostoiévski</p>
+            <p class="type"><span>📖</span> E-book</p>
+          </article>
 
-    <section id="colecoes" class="library-section">
-      <div class="section-title-row">
-        <h2>📚 Coleções editoriais</h2>
-        <a href="#catalogo-completo">Ver tudo →</a>
-      </div>
-      <div class="collections-row">
-        <article class="collection-card classic">
+          <article class="media-card" data-type="E-book">
+            <div class="cover cover-principe">
+              <span class="cover-badge">📖</span>
+              <strong>O Pequeno<br>Príncipe</strong>
+            </div>
+            <p class="genre">Infantil</p>
+            <h3>O Pequeno Príncipe</h3>
+            <p class="creator">Antoine de Saint-Exupéry</p>
+            <p class="type"><span>📖</span> E-book</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" data-section="Podcast">
+        <div class="section-heading">
+          <h2>Podcasts</h2>
+          <button type="button" class="see-all" data-show="Podcast">Ver tudo <span>›</span></button>
+        </div>
+        <div class="cards-grid">
+          <article class="media-card" data-type="Podcast">
+            <div class="cover cover-teorias">
+              <span class="cover-badge">☊</span>
+              <strong>Teorias<br>Sonoras</strong>
+            </div>
+            <p class="genre">Filosofia • Sociedade</p>
+            <h3>Teorias Sonoras</h3>
+            <p class="creator">Livro Sonoro</p>
+            <p class="type"><span>☊</span> Podcast</p>
+          </article>
+
+          <article class="media-card" data-type="Podcast">
+            <div class="cover cover-sussurros">
+              <span class="cover-badge">☊</span>
+              <strong>Sussurros<br>Urbanos</strong>
+            </div>
+            <p class="genre">Histórias • Cultura</p>
+            <h3>Sussurros Urbanos</h3>
+            <p class="creator">Livro Sonoro</p>
+            <p class="type"><span>☊</span> Podcast</p>
+          </article>
+
+          <article class="media-card" data-type="Podcast">
+            <div class="cover cover-clube">
+              <span class="cover-badge">☊</span>
+              <strong>Clube Leitura<br>de Ouvido</strong>
+            </div>
+            <p class="genre">Literatura • Leitura</p>
+            <h3>Clube Leitura de Ouvido</h3>
+            <p class="creator">Livro Sonoro</p>
+            <p class="type"><span>☊</span> Podcast</p>
+          </article>
+
+          <article class="media-card" data-type="Podcast">
+            <div class="cover cover-arquivo">
+              <span class="cover-badge">☊</span>
+              <strong>Arquivo<br>Sonoro</strong>
+            </div>
+            <p class="genre">História • Memória</p>
+            <h3>Arquivo Sonoro</h3>
+            <p class="creator">Livro Sonoro</p>
+            <p class="type"><span>☊</span> Podcast</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="support-box">
+        <div class="support-title">
+          <div class="support-icon">♡</div>
           <div>
-            <h3>Coleção Clássicos Eternos</h3>
-            <p>Grandes obras que atravessam o tempo.</p>
-            <strong>6 títulos</strong>
+            <h2>Apoie o Livro Sonoro</h2>
+            <p>Seu apoio mantém histórias vivas.</p>
           </div>
-          <a href="#audiolivros">Ver coleção</a>
-        </article>
-        <article class="collection-card wisdom">
-          <div>
-            <h3>Sabedoria & Filosofia</h3>
-            <p>Ideias que transformam mentes e destinos.</p>
-            <strong>5 títulos</strong>
-          </div>
-          <a href="#loja">Ver coleção</a>
-        </article>
-        <article class="collection-card sacred">
-          <div>
-            <h3>Fé, Mistério & Espiritualidade</h3>
-            <p>Textos sagrados e ensinamentos profundos.</p>
-            <strong>7 títulos</strong>
-          </div>
-          <a href="#audiolivros">Ver coleção</a>
-        </article>
-        <article class="collection-card brazil">
-          <div>
-            <h3>Biblioteca Machado de Assis</h3>
-            <p>O maior nome da literatura brasileira.</p>
-            <strong>8 títulos</strong>
-          </div>
-          <a href="#brasileira">Ver coleção</a>
-        </article>
-      </div>
-    </section>
+        </div>
 
-    <section id="catalogo-completo" class="library-section catalog-panel">
-      <div class="section-title-row">
-        <h2>🔎 Catálogo completo</h2>
-        <span id="total-obras">0 obras</span>
-      </div>
+        <div class="support-grid">
+          <button type="button" class="support-card" id="pixButton">
+            <span>❖</span>
+            <strong>Pix</strong>
+            <small>Apoie via Pix</small>
+          </button>
 
-      <div class="catalog-tools">
-        <input id="busca" type="search" placeholder="Buscar por obra, autor ou categoria...">
-        <div id="filtros" class="filter-pills"></div>
-      </div>
+          <a href="#" class="support-card">
+            <span>♡</span>
+            <strong>Apoia.se</strong>
+            <small>Seja um apoiador</small>
+          </a>
 
-      <div id="catalogo-grid" class="compact-grid"></div>
-    </section>
+          <a href="mailto:livrosonoropodcast@gmail.com" class="support-card">
+            <span>✉</span>
+            <strong>Contato</strong>
+            <small>Fale conosco</small>
+          </a>
+        </div>
 
-    <section id="colecionaveis" class="library-section compact-info">
-      <div class="section-title-row">
-        <h2>🏺 Colecionáveis</h2>
-        <a href="#contato">Contato →</a>
-      </div>
-      <div id="colecionaveis-grid" class="mini-info-grid"></div>
-    </section>
-
-    <section id="apoie" class="support-section">
-      <div class="support-copy">
-        <p class="eyebrow">Sustentação do projeto</p>
-        <h2>Apoie a Biblioteca Livro Sonoro</h2>
-        <p>O Livro Sonoro é um projeto brasileiro independente. O apoio ajuda a manter narrações, capas, edições, PDFs, eBooks, publicações e a evolução da plataforma.</p>
-      </div>
-
-      <div class="support-cards">
-        <article>
-          <h3>Pix</h3>
-          <p>Contribuição direta.</p>
-          <button data-copy="canallivrosonoro@gmail.com">Copiar Pix</button>
-        </article>
-        <article>
-          <h3>Apoia.se</h3>
-          <p>Clube mensal futuro.</p>
-          <a href="#">Em breve</a>
-        </article>
-        <article>
-          <h3>Parceiros</h3>
-          <p>Editoras, escolas, autores e marcas culturais.</p>
-          <a href="mailto:canallivrosonoro@gmail.com">Contato</a>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer id="contato" class="site-footer">
-    <div class="footer-brand">
-      <div class="logo footer-logo">
-        <span class="logo-mark">☊</span>
-        <span>
-          <strong>Livro Sonoro</strong>
-          <small>Biblioteca Virtual 1.0</small>
-        </span>
-      </div>
-      <p>Ouvir é conhecer. Ler é transformar.</p>
-    </div>
-
-    <div class="footer-column">
-      <h4>Navegue</h4>
-      <a href="#biblioteca">Biblioteca</a>
-      <a href="#audiolivros">Audiolivros</a>
-      <a href="#ebooks">eBooks</a>
-      <a href="#colecoes">Coleções</a>
-    </div>
-
-    <div class="footer-column">
-      <h4>Institucional</h4>
-      <a href="#apoie">Apoie o projeto</a>
-      <a href="#loja">Loja literária</a>
-      <a href="#colecionaveis">Colecionáveis</a>
-      <a href="mailto:canallivrosonoro@gmail.com">Contato</a>
-    </div>
-
-    <div class="footer-column">
-      <h4>Contato</h4>
-      <p>canallivrosonoro@gmail.com</p>
-      <p>@livrosonoropodcast</p>
-      <p>@livro.sonoro</p>
-    </div>
-  </footer>
+        <p class="copy-message" id="copyMessage" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>

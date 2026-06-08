@@ -1,19 +1,25 @@
-# Livro Sonoro — Biblioteca Virtual 1.5
+# Livro Sonoro — Biblioteca Virtual 1.0
 
-Versão com formato de plataforma/biblioteca por prateleiras, inspirada em catálogos de audiobook/eBook.
+Site estático em HTML, CSS e JavaScript puro.
 
-## Mudanças principais
+## Arquivos
 
-- Header no estilo plataforma.
-- Hero mais cinematográfico.
-- Categorias em botões horizontais.
-- Prateleiras horizontais de audiolivros.
-- Loja com cards de venda.
-- eBooks/PDFs em carrossel.
-- Coleções editoriais.
-- Footer institucional.
-- Mantém Biblioteca Virtual 1.0 como versão pública.
+- index.html
+- style.css
+- script.js
 
-## Próximo passo
+## Como abrir localmente
 
-Subir no GitHub e deixar o Netlify republicar.
+```bash
+xdg-open index.html
+```
+
+Ou clique duas vezes no arquivo `index.html`.
+
+## Como publicar
+
+Envie `index.html`, `style.css` e `script.js` para o GitHub Pages, Netlify ou Vercel.
+
+## Identidade
+
+Livro Sonoro — Da palavra escrita à palavra falada: clássicos, poemas e textos antigos para atravessar o tempo.
