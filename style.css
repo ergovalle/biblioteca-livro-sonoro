@@ -637,3 +637,36 @@ button {
 .cover-dracula { background: radial-gradient(circle at 55% 24%, rgba(136,22,22,.46), transparent 34%), linear-gradient(135deg, #210909, #050605 78%); }
 .cover-igreja { background: radial-gradient(circle at 50% 28%, rgba(140,42,24,.42), transparent 34%), linear-gradient(135deg, #260f09, #050605 78%); }
 .cover-sertoes { background: radial-gradient(circle at 52% 26%, rgba(160,100,38,.42), transparent 34%), linear-gradient(135deg, #27180d, #050605 78%); }
+
+
+/* ==== Capas reais dos audiobooks ==== */
+.cover.has-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.cover.has-image::before {
+  opacity: 0;
+  background: none;
+}
+
+.cover.has-image::after {
+  background: linear-gradient(180deg, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.10) 100%);
+}
+
+.cover.has-image strong {
+  display: none;
+}
+
+.cover-enoque { background-image: url("assets/capas/enoque.png"); }
+.cover-anna { background-image: url("assets/capas/anna-karenina.png"); }
+.cover-profeta { background-image: url("assets/capas/o-profeta.png"); }
+.cover-noites { background-image: url("assets/capas/noites-brancas.png"); }
+.cover-tome { background-image: url("assets/capas/evangelho-tome.png"); }
+.cover-crime { background-image: url("assets/capas/crime-castigo-cap1.png"); }
+.cover-crime2 { background-image: url("assets/capas/crime-castigo-cap2.png"); }
+.cover-dracula { background-image: url("assets/capas/dracula-cap1.png"); }
+.cover-igreja { background-image: url("assets/capas/igreja-diabo.png"); }
+.cover-sertoes { background-image: url("assets/capas/os-sertoes.png"); }

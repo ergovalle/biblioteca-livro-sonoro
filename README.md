@@ -22,3 +22,9 @@ Versão atualizada com links reais de YouTube e Spotify nos audiobooks enviados.
 - script.js
 - README.md
 - CODIGO_COMPLETO.md
+
+
+## Atualização v2.2
+- Integração de 10 capas finais reais dos audiobooks.
+- As capas foram adicionadas na pasta `assets/capas/`.
+- Os cards de audiobook agora usam imagens quadradas reais no layout do site.
