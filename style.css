@@ -600,3 +600,40 @@ button {
     padding: 18px;
   }
 }
+
+
+/* Links reais YouTube / Spotify — v2.1 */
+.links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.links-row a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 7px 11px;
+  border: 1px solid rgba(141,170,61,.28);
+  border-radius: 999px;
+  color: #dbe8ad;
+  background: rgba(141,170,61,.07);
+  font-size: .78rem;
+  font-weight: 800;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+.links-row a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(141,170,61,.65);
+  background: rgba(141,170,61,.14);
+}
+
+.cover-enoque { background: radial-gradient(circle at 50% 22%, rgba(190,137,54,.44), transparent 34%), linear-gradient(135deg, #2b1b0e, #050605 78%); }
+.cover-tome { background: radial-gradient(circle at 45% 26%, rgba(160,116,48,.42), transparent 32%), linear-gradient(135deg, #23170d, #050605 78%); }
+.cover-crime2 { background: radial-gradient(circle at 62% 28%, rgba(91,91,82,.36), transparent 34%), linear-gradient(135deg, #191814, #050605 76%); }
+.cover-dracula { background: radial-gradient(circle at 55% 24%, rgba(136,22,22,.46), transparent 34%), linear-gradient(135deg, #210909, #050605 78%); }
+.cover-igreja { background: radial-gradient(circle at 50% 28%, rgba(140,42,24,.42), transparent 34%), linear-gradient(135deg, #260f09, #050605 78%); }
+.cover-sertoes { background: radial-gradient(circle at 52% 26%, rgba(160,100,38,.42), transparent 34%), linear-gradient(135deg, #27180d, #050605 78%); }

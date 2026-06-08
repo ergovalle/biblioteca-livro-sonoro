@@ -1,4 +1,4 @@
-# Código completo — Livro Sonoro Biblioteca Virtual 1.0
+# Código completo — Livro Sonoro Biblioteca Virtual 1.0 v2.1
 
 ## index.html
 
@@ -58,27 +58,36 @@
           <h2>Audiobooks</h2>
           <button type="button" class="see-all" data-show="Audiobook">Ver tudo <span>›</span></button>
         </div>
+
         <div class="cards-grid">
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-enoque">
+              <span class="cover-badge">🎧</span>
+              <strong>O Livro<br>de Enoque</strong>
+            </div>
+            <p class="genre">Texto antigo • Apócrifo</p>
+            <h3>O Livro de Enoque</h3>
+            <p class="creator">Texto antigo</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://www.youtube.com/watch?v=a7xAhsyQqIc&t=794s" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/3S23cFooEUvs21IzjwuBON?si=ojvUb8WERoaMEXJE6SsYRw" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </article>
+
           <article class="media-card" data-type="Audiobook">
             <div class="cover cover-anna">
               <span class="cover-badge">🎧</span>
               <strong>Anna<br>Karenina</strong>
             </div>
             <p class="genre">Romance</p>
-            <h3>Anna Karenina</h3>
+            <h3>Anna Karenina — Parte 1 Completa</h3>
             <p class="creator">Liev Tolstói</p>
             <p class="type"><span>🎧</span> Audiobook</p>
-          </article>
-
-          <article class="media-card" data-type="Audiobook">
-            <div class="cover cover-crime">
-              <span class="cover-badge">🎧</span>
-              <strong>Crime<br>e Castigo</strong>
+            <div class="links-row">
+              <a href="https://youtu.be/4YFWaecEZVw?si=mz1c-4TZWRVboi2t" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/1J68oRxixaSKLMb4g5c4TN?si=WQC6tYevTJOtwqUb5oc4mg" target="_blank" rel="noopener">Spotify</a>
             </div>
-            <p class="genre">Romance</p>
-            <h3>Crime e Castigo</h3>
-            <p class="creator">Fiódor Dostoiévski</p>
-            <p class="type"><span>🎧</span> Audiobook</p>
           </article>
 
           <article class="media-card" data-type="Audiobook">
@@ -90,17 +99,115 @@
             <h3>O Profeta</h3>
             <p class="creator">Khalil Gibran</p>
             <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/zayaXdqe3YE?si=KO0g-kQdsd5k1oZ5" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/3Dp1oMIC6wINY0CBAVbaTJ?si=kI3br5azSDCvYZWDeov1PA" target="_blank" rel="noopener">Spotify</a>
+            </div>
           </article>
 
           <article class="media-card" data-type="Audiobook">
-            <div class="cover cover-ivan">
+            <div class="cover cover-noites">
               <span class="cover-badge">🎧</span>
-              <strong>A Morte de<br>Ivan Ilitch</strong>
+              <strong>Noites<br>Brancas</strong>
             </div>
             <p class="genre">Romance</p>
-            <h3>A Morte de Ivan Ilitch</h3>
-            <p class="creator">Liev Tolstói</p>
+            <h3>Noites Brancas</h3>
+            <p class="creator">Fiódor Dostoiévski</p>
             <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/01_zKAEoC-E?si=6G_iHB4b-955glSW" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/5mL0sKfUqeSB7M8YOx9A1N?si=rEevtZ-XQJu9PCeAd0rtRw" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </article>
+
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-tome">
+              <span class="cover-badge">🎧</span>
+              <strong>Evangelho<br>de Tomé</strong>
+            </div>
+            <p class="genre">Texto apócrifo</p>
+            <h3>O Evangelho de Tomé</h3>
+            <p class="creator">Texto antigo</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/pUImseQVqko" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/06E2NyZJqEzrYK9Yw3H0pc?si=ff_jAbrUTauVEn5wWR8JQg" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </article>
+
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-crime">
+              <span class="cover-badge">🎧</span>
+              <strong>Crime e<br>Castigo I</strong>
+            </div>
+            <p class="genre">Romance • Série</p>
+            <h3>Crime e Castigo — Capítulo 1</h3>
+            <p class="creator">Fiódor Dostoiévski</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/wXUqyLQv2JI" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/3NIf9XGuAA1OZL4iP7xTI2?si=S0PSGKL5RsmaIXcbR2Xbsg" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </article>
+
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-crime2">
+              <span class="cover-badge">🎧</span>
+              <strong>Crime e<br>Castigo II</strong>
+            </div>
+            <p class="genre">Romance • Série</p>
+            <h3>Crime e Castigo — Capítulo 2</h3>
+            <p class="creator">Fiódor Dostoiévski</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/Wc-zQqKbfLs" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/3aF55QOJF0xf6gvvnuY9sS?si=u2P0-NneSJmSvaTDQhHk7Q" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </article>
+
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-dracula">
+              <span class="cover-badge">🎧</span>
+              <strong>Drácula<br>Capítulo 1</strong>
+            </div>
+            <p class="genre">Gótico • Terror</p>
+            <h3>Drácula — Capítulo 1</h3>
+            <p class="creator">Bram Stoker</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/7gnzr8zebsM" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/11UZGqgUdc2dNkcUw9PLxv?si=0Np0p9O5Trmr1ykwHt5sIg" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </article>
+
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-igreja">
+              <span class="cover-badge">🎧</span>
+              <strong>A Igreja<br>do Diabo</strong>
+            </div>
+            <p class="genre">Conto • Literatura Brasileira</p>
+            <h3>A Igreja do Diabo</h3>
+            <p class="creator">Machado de Assis</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/-ipKk3njYEg" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/7IrNcyDdijSqU8xa1kVk1X?si=-sk0pATTTpmtP6jEE9tvLA" target="_blank" rel="noopener">Spotify</a>
+            </div>
+          </article>
+
+          <article class="media-card" data-type="Audiobook">
+            <div class="cover cover-sertoes">
+              <span class="cover-badge">🎧</span>
+              <strong>Os<br>Sertões</strong>
+            </div>
+            <p class="genre">Literatura Brasileira</p>
+            <h3>Os Sertões</h3>
+            <p class="creator">Euclides da Cunha</p>
+            <p class="type"><span>🎧</span> Audiobook</p>
+            <div class="links-row">
+              <a href="https://youtu.be/YF91k9Sg8nY" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://open.spotify.com/episode/6dl5ATIDVCzIDDxjcbSKJT?si=0NoxVQPOSSOx-egmMhsDsg" target="_blank" rel="noopener">Spotify</a>
+            </div>
           </article>
         </div>
       </section>
@@ -120,6 +227,9 @@
             <h3>O Diabo Justo</h3>
             <p class="creator">E. S. Almeida</p>
             <p class="type"><span>📖</span> E-book</p>
+            <div class="links-row">
+              <a href="#" target="_blank" rel="noopener">Link em breve</a>
+            </div>
           </article>
 
           <article class="media-card" data-type="E-book">
@@ -131,28 +241,9 @@
             <h3>Evangelho dos Dragões Caídos</h3>
             <p class="creator">E. S. Almeida</p>
             <p class="type"><span>📖</span> E-book</p>
-          </article>
-
-          <article class="media-card" data-type="E-book">
-            <div class="cover cover-noites">
-              <span class="cover-badge">📖</span>
-              <strong>Noites<br>Brancas</strong>
+            <div class="links-row">
+              <a href="#" target="_blank" rel="noopener">Link em breve</a>
             </div>
-            <p class="genre">Romance</p>
-            <h3>Noites Brancas</h3>
-            <p class="creator">Fiódor Dostoiévski</p>
-            <p class="type"><span>📖</span> E-book</p>
-          </article>
-
-          <article class="media-card" data-type="E-book">
-            <div class="cover cover-principe">
-              <span class="cover-badge">📖</span>
-              <strong>O Pequeno<br>Príncipe</strong>
-            </div>
-            <p class="genre">Infantil</p>
-            <h3>O Pequeno Príncipe</h3>
-            <p class="creator">Antoine de Saint-Exupéry</p>
-            <p class="type"><span>📖</span> E-book</p>
           </article>
         </div>
       </section>
@@ -172,6 +263,9 @@
             <h3>Teorias Sonoras</h3>
             <p class="creator">Livro Sonoro</p>
             <p class="type"><span>☊</span> Podcast</p>
+            <div class="links-row">
+              <a href="#" target="_blank" rel="noopener">Em breve</a>
+            </div>
           </article>
 
           <article class="media-card" data-type="Podcast">
@@ -183,6 +277,9 @@
             <h3>Sussurros Urbanos</h3>
             <p class="creator">Livro Sonoro</p>
             <p class="type"><span>☊</span> Podcast</p>
+            <div class="links-row">
+              <a href="#" target="_blank" rel="noopener">Em breve</a>
+            </div>
           </article>
 
           <article class="media-card" data-type="Podcast">
@@ -194,6 +291,9 @@
             <h3>Clube Leitura de Ouvido</h3>
             <p class="creator">Livro Sonoro</p>
             <p class="type"><span>☊</span> Podcast</p>
+            <div class="links-row">
+              <a href="#" target="_blank" rel="noopener">Em breve</a>
+            </div>
           </article>
 
           <article class="media-card" data-type="Podcast">
@@ -205,6 +305,9 @@
             <h3>Arquivo Sonoro</h3>
             <p class="creator">Livro Sonoro</p>
             <p class="type"><span>☊</span> Podcast</p>
+            <div class="links-row">
+              <a href="#" target="_blank" rel="noopener">Em breve</a>
+            </div>
           </article>
         </div>
       </section>
@@ -854,6 +957,43 @@ button {
     padding: 18px;
   }
 }
+
+
+/* Links reais YouTube / Spotify — v2.1 */
+.links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.links-row a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 7px 11px;
+  border: 1px solid rgba(141,170,61,.28);
+  border-radius: 999px;
+  color: #dbe8ad;
+  background: rgba(141,170,61,.07);
+  font-size: .78rem;
+  font-weight: 800;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+.links-row a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(141,170,61,.65);
+  background: rgba(141,170,61,.14);
+}
+
+.cover-enoque { background: radial-gradient(circle at 50% 22%, rgba(190,137,54,.44), transparent 34%), linear-gradient(135deg, #2b1b0e, #050605 78%); }
+.cover-tome { background: radial-gradient(circle at 45% 26%, rgba(160,116,48,.42), transparent 32%), linear-gradient(135deg, #23170d, #050605 78%); }
+.cover-crime2 { background: radial-gradient(circle at 62% 28%, rgba(91,91,82,.36), transparent 34%), linear-gradient(135deg, #191814, #050605 76%); }
+.cover-dracula { background: radial-gradient(circle at 55% 24%, rgba(136,22,22,.46), transparent 34%), linear-gradient(135deg, #210909, #050605 78%); }
+.cover-igreja { background: radial-gradient(circle at 50% 28%, rgba(140,42,24,.42), transparent 34%), linear-gradient(135deg, #260f09, #050605 78%); }
+.cover-sertoes { background: radial-gradient(circle at 52% 26%, rgba(160,100,38,.42), transparent 34%), linear-gradient(135deg, #27180d, #050605 78%); }
 
 ```
 
